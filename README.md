@@ -24,23 +24,7 @@
 8 byte: [0-9]+_l
 
 
-## Production Rules
-* <program> --> begin <stmt_list> end
-* <stmt_list> --> { <stmt> ‘\n’ }
-* <stmt> --> <declare> | <cake_stmt> | <pie_loop> | <assign_stmt> 
-* <declare> --> `data` `id` 
-* <assign_stmt> --> `id` `=` <expr>
-* <pie_loop> --> `pie` `(`<bool_expr> `)` <stmt>
-* <cake_stmt> --> `cake` `(` <bool_expr> `)` <stmt> [`cookies` <stmt>] 
-* <expr> --> <term> { (`+`|`*`) <term> }
-* <term> --> <factor> { (`-` | `/` | `%`) <factor> }
-* <factor> --> `id` | `int_lit` |  `(` <expr> `)`
-
-* <bool_expr> --> <brel> { (`!` | `~`) <brel> } 
-* <brel> --> <bexpr> { (`#` | `$` | `<` | `>`)  <bexpr> }
-* <bexpr> --> <bterm> { (`+`|`*`) <bterm> }
-* <bterm> --> <bfactor> { (`-` | `/` | `%`) <bfactor> }
-* <bfactor> --> `id` | `int_lit` |  `(` <bexpr> `)` | `bool_lit`
+Please for all other questions look at this document: https://docs.google.com/document/d/1HxlgDh6gn1krz5zvAAHWNWt9IAEeLnFM/edit?usp=sharing&ouid=109582375527567682751&rtpof=true&sd=true
 
 
 
