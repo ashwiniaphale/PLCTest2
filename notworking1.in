@@ -1,0 +1,14 @@
+begin
+data byt3eex_ 
+data intex_hrueidj
+data shortex_ @
+byteex_ = 12_b
+intex_ = 20$00_i
+shortex_ = 33000_s
+while
+pie (intex_ < shortex_)
+    cake (intex_ ~ 20000_i)
+        shortex_ = 43000_s
+    cookies
+        byteex_ = 50_b
+end

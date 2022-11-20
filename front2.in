@@ -1,0 +1,12 @@
+begin
+data iamash
+iamash = 12_b
+data ashiam
+ashiam = 3_b
+cake (ashiam + iamash > iamash)
+    iamash = iamash + ashiam
+    ashiam = iamash / 2_b
+else
+    ashiam = iamash + ashiam
+    iamash = iamash / 2_b
+end

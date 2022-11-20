@@ -1,0 +1,13 @@
+begin
+data byteex_
+data intex_
+data shortex_
+byteex_ = 12_b
+intex_ = 20000_i
+shortex_ = 33000_s
+pi (intex_ < shortex_)
+    cake (intex_  20000_i)
+        shortex_ = 43000_s
+    cookes
+        byteex_ = 50_b
+end
