@@ -24,7 +24,7 @@
 8 byte: [0-9]+_l
 
 
-Please for all other questions look at this document: https://docs.google.com/document/d/1HxlgDh6gn1krz5zvAAHWNWt9IAEeLnFM/edit?usp=sharing&ouid=109582375527567682751&rtpof=true&sd=true
+Please for all questions look at this document: https://docs.google.com/document/d/1HxlgDh6gn1krz5zvAAHWNWt9IAEeLnFM/edit?usp=sharing&ouid=109582375527567682751&rtpof=true&sd=true
 
 
 
